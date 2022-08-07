@@ -1,0 +1,6 @@
+FROM dockercloud/hello-world
+
+LABEL maintainer="romain@particule.io"
+
+ADD index.php /www/index.php
+ADD file_example_1.2.png /www/logo.png
