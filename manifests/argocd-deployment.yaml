@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
       - name: helloworld
-        image: innovation009/helloworld-argocd:1
+        image: innovation009/helloworld-argocd:1.2
         imagePullPolicy: Always
         ports:
         - name: web
